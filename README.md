@@ -58,11 +58,14 @@ The data after manipulation, ready to be used for analysis: [Cleaned Data](https
 | methane_per_capita           | Methane emissions per capita measured in tonnes per person.                           |
 
 ## Figures
-Bar graph showing the distrubution of images across 3 patient statuses: healthy, pneumonia, covid.
-<img src="https://github.com/vkf5ugb/SleepyHeads_DS4002_Project2/blob/main/Figures/DataDist.jpeg" title= "Data Distribution">
+Plot showing the current trend in greenhouse gas emissions per capita in the US since 1990.
+<img src="https://github.com/vkf5ugb/SleepyHeads_DS4002_Project3/blob/main/Figures/GHG_Per_Capita.png" title= "GHG Per Capita">
 
-Accuracy and loss fluctuate over the course of image testing.
-<img src="https://github.com/vkf5ugb/SleepyHeads_DS4002_Project2/blob/main/Figures/Accuracy.jpeg" title= "Accuracy">
+Plot showing the current trend in TOTAL greenhouse gas emissions in the US since 1990.
+<img src="https://github.com/vkf5ugb/SleepyHeads_DS4002_Project3/blob/main/Figures/GHG_Total.png" title= "GHG Total">
+
+Plot showing the predicted trend in greenhouse gas emissions per capita in the US since 1990.
+<img src="https://github.com/vkf5ugb/SleepyHeads_DS4002_Project3/blob/main/Figures/GHG_Total.png" title= "GHG Total">
 
 The model can easily classify normal, healthy lungs as such. However, it can only classify COVID-19 patient lungs correctly ~86% of the time.
 <img src="https://github.com/vkf5ugb/SleepyHeads_DS4002_Project2/blob/main/Figures/CorrectClassifications.jpeg" title= "Correct Classifications">
