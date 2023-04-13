@@ -14,17 +14,16 @@ This repository contains all the source code and data necessary to use a common 
   * Explains contents of repository and process of project execution
 
 ## SRC
-#### Necessary Packages and Set Seed
+#### Necessary Packages
 
 ```{r}
 #Installing and loading necessary packages
-#install.packages('tensorflow')
-#install.packages('keras')
-#install.packages('tfdatasets')
-#install_tensorflow()
-library(tensorflow)
-library(keras)
-set.seed(1234)
+library(forecast)
+library(tseries)
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
 ```
 
 
