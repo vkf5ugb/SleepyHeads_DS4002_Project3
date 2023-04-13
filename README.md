@@ -32,7 +32,7 @@ library(tidyr)
 - Open the code file in R and ensure your working directory is the folder that contains the data
 - Install necessary packages
 - If using the original csv file, follow the entirety of the code file to properly clean the dataset. If using the pre-cleaned dataset, skip lines 20-30.
-- Run all the code in order to prepare the data, run the predictions, and visualize/evaluate the results
+- Run all the code in order to prepare the data, create predictions using ARIMA, and visualize/evaluate the results of the prediction confidence intervals
 
 
 ## DATA 
