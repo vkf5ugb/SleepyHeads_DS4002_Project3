@@ -7,7 +7,7 @@ This repository contains all the source code and data necessary to use a common 
 - Data File Folder
   * Contains method of accessing orginal csv (Original Dataset) and cleaned/downloaded data (Cleaned Dataset).
 - Figures Folder
-  * Contains - figures
+  * Contains 4 figures and 1 table of project results
 - LICENSE.md
   * Statement of MIT License
 - README.md
