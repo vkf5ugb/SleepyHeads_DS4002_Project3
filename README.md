@@ -1,13 +1,13 @@
 # SleepyHeads_DS4002_Project3
 Quinn Glovier (leader), Adam Cook, Victoria Feist
 ## Contents of Repository 
-This repository contains all the source code and data necessary to run a TensorFlow machine learning model to diagnose COVID-19 using chest x-rays.
+This repository contains all the source code and data necessary to use a common R package (forecast) to predict the projection of greenhouse gas emissions per capita in the U.S. over the next 11 years.
 - SRC Folder
   * Contains annotated R code file
 - Data File Folder
-  * Contains method of accessing orginal image files (Original Dataset) and cleaned/downloaded image data (Cleaned Dataset).
+  * Contains method of accessing orginal csv (Original Dataset) and cleaned/downloaded data (Cleaned Dataset).
 - Figures Folder
-  * Contains 3 figures
+  * Contains - figures
 - LICENSE.md
   * Statement of MIT License
 - README.md
@@ -68,12 +68,5 @@ The model can easily classify normal, healthy lungs as such. However, it can onl
 <img src="https://github.com/vkf5ugb/SleepyHeads_DS4002_Project2/blob/main/Figures/CorrectClassifications.jpeg" title= "Correct Classifications">
 
 ## References
-[1]M. R. Gordon and W. P. Strobel, “WSJ News Exclusive | Lab leak most likely origin of covid-19 pandemic, Energy Department now says,” The Wall Street Journal, 28-Feb-2023. [Online]. Available: https://www.wsj.com/articles/covid-origin-china-lab-leak-807b7b0a. [Accessed: 14-Mar-2023].
-
-[2]  A. Abougazia et al., “Chest X-ray findings in COVID-19 patients presenting to primary care during the peak of the first wave of the pandemic in Qatar: Their association with clinical and laboratory findings,” Pulmonary medicine, 27-Oct-2021. [Online]. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8553512/. [Accessed: 14-Mar-2023].
-
-[3]A. Cook, V. Feist, Q. Glovier, “Covid-19 Diagnosis: Milestone 1”, The Sleepyheads, 14-Mar-2023, [Online]. Available: Project2_MI1 [Accessed 16-Mar-2023]
-
-[4]ApokalypsePartyTeam, “How to build your own image recognition app with R! [part 1]: R-bloggers,” R-Bloggers, 16-Mar-2021. [Online]. Available: https://www.r-bloggers.com/2021/03/how-to-build-your-own-image-recognition-app-with-r-part-1/. [Accessed: 23-Mar-2023]. 
-
-[5]A. Cook, V. Feist, Q. Glovier. “COVID-19 Diagnosis: Milestone 2,” 16-Mar-2023. Available: https://docs.google.com/document/d/1u_pljSKlBErJu4n3dEF1ZCG7TjLRkuWQpu5EimiqvXA/edit
+[1] A. Cook, T. Feist, Q. Glovier, “Climate Change Predictions: Milestone 1”, The Sleepyheads, 04-April-2023, [Online]. Available: [Project3_MI1](https://docs.google.com/document/d/1ucUobykuZswk5Unbu6bWKyQ18jEMa1kowxmz9iMyxfo/edit) . [Accessed 04-06-2023].
+[2] A. Cook, T. Feist, Q. Glovier, “Climate Change Predictions: Milestone 2”, The Sleepyheads, 08-April-2023, [Online]. Available: [Project3_MI2] (https://docs.google.com/document/d/1HQOttT25JbTY2lmzu_LwqskXsB_EEQCIW2ISqyz_0l8/edit). [Accessed 04-06-2023].
