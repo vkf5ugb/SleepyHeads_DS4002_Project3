@@ -64,11 +64,14 @@ Plot showing the current trend in greenhouse gas emissions per capita in the US 
 Plot showing the current trend in TOTAL greenhouse gas emissions in the US since 1990.
 <img src="https://github.com/vkf5ugb/SleepyHeads_DS4002_Project3/blob/main/Figures/GHG_Total.png" title= "GHG Total">
 
-Plot showing the predicted trend in greenhouse gas emissions per capita in the US since 1990.
-<img src="https://github.com/vkf5ugb/SleepyHeads_DS4002_Project3/blob/main/Figures/GHG_Total.png" title= "GHG Total">
+Plot showing the predicted trend in greenhouse gas emissions per capita in the US 1990-2030.
+<img src="https://github.com/vkf5ugb/SleepyHeads_DS4002_Project3/blob/main/Figures/GHG_Per_Capita_Pred.png" title= "Predicted GHG Per Capita">
 
-The model can easily classify normal, healthy lungs as such. However, it can only classify COVID-19 patient lungs correctly ~86% of the time.
-<img src="https://github.com/vkf5ugb/SleepyHeads_DS4002_Project2/blob/main/Figures/CorrectClassifications.jpeg" title= "Correct Classifications">
+Plot showing the predicted trend in TOTAL greenhouse gas emissions in the US 1990-2030.
+<img src="https://github.com/vkf5ugb/SleepyHeads_DS4002_Project3/blob/main/Figures/GHG_Total_Pred.png" title= "Predicted Total GHG">
+
+Table showing the predicted GHG reduction (per capita and total) in the US by 2030. In agreement with our hypothesis, the US will not meet the GHG reduction goal of 50-52%.
+<img src="https://github.com/vkf5ugb/SleepyHeads_DS4002_Project3/blob/main/Figures/ResultsTable.png" title= "Results of Predictions">
 
 ## References
 [1] A. Cook, T. Feist, Q. Glovier, “Climate Change Predictions: Milestone 1”, The Sleepyheads, 04-April-2023, [Online]. Available: [Project3_MI1](https://docs.google.com/document/d/1ucUobykuZswk5Unbu6bWKyQ18jEMa1kowxmz9iMyxfo/edit) . [Accessed 04-06-2023].
