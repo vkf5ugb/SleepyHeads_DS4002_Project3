@@ -69,4 +69,5 @@ The model can easily classify normal, healthy lungs as such. However, it can onl
 
 ## References
 [1] A. Cook, T. Feist, Q. Glovier, “Climate Change Predictions: Milestone 1”, The Sleepyheads, 04-April-2023, [Online]. Available: [Project3_MI1](https://docs.google.com/document/d/1ucUobykuZswk5Unbu6bWKyQ18jEMa1kowxmz9iMyxfo/edit) . [Accessed 04-06-2023].
+
 [2] A. Cook, T. Feist, Q. Glovier, “Climate Change Predictions: Milestone 2”, The Sleepyheads, 08-April-2023, [Online]. Available: [Project3_MI2](https://docs.google.com/document/d/1HQOttT25JbTY2lmzu_LwqskXsB_EEQCIW2ISqyz_0l8/edit). [Accessed 04-06-2023].
