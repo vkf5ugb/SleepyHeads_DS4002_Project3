@@ -5,7 +5,7 @@ This repository contains all the source code and data necessary to use a common 
 - SRC Folder
   * Contains annotated R code file
 - Data File Folder
-  * Contains method of accessing orginal csv (Original Dataset) and cleaned/downloaded data (Cleaned Dataset).
+  * Contains method of accessing orginal csv (Original Data) and cleaned/downloaded data (cleaned_data).
 - Figures Folder
   * Contains 4 figures and 1 table of project results
 - LICENSE.md
