@@ -57,7 +57,7 @@ The data after manipulation, ready to be used for analysis: [Cleaned Data](https
 | methane                      | Total methane emissions measured in millions of tonnes.                               |
 | methane_per_capita           | Methane emissions per capita measured in tonnes per person.                           |
 
-## Figures
+## FIGURES
 Plot showing the current trend in greenhouse gas emissions per capita in the US since 1990.
 <img src="https://github.com/vkf5ugb/SleepyHeads_DS4002_Project3/blob/main/Figures/GHG_Per_Capita.png" title= "GHG Per Capita">
 
