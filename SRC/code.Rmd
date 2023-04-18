@@ -1,0 +1,94 @@
+---
+title: "Project 3"
+author: "Adam Cook"
+date: "2023-04-06"
+output: html_document
+---
+Installing Necessary Packages 
+```{r}
+#install.packages('forecast')
+#install.packages('tseries')
+library(forecast)
+library(tseries)
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+```
+Reading in the data to a dataframe
+```{r}
+df <- read.csv("/Users/adam/Desktop/DS Projects/Project 3/owid-co2-data (1).csv")
+```
+
+Cleaning the Data
+```{r}
+df <- df %>% # For greenhouse gas emissions, there is no data before 1990 and after 2019
+  filter(country == 'United States', year >= 1990)%>%
+  filter(year <= 2019)
+
+#filtering to only include columns relevant to our questions
+df <- df[, c("year", "population", "co2_including_luc", "co2_including_luc_per_capita",
+             "methane", "methane_per_capita", "oil_co2", "oil_co2_per_capita", "ghg_per_capita",
+             "total_ghg")]
+view(df)
+
+#write.csv(df, "/Users/adam/Desktop/DS Projects/Project 3/cleaned_data.csv")
+
+```
+
+
+Plotting the time series data as is, without a projection, with the per capita data as well as the total data 
+```{r}
+ggplot(df, aes(year, ghg_per_capita))+
+  geom_line(color = "green")+
+  xlab("Year")+
+  labs(title = "US Greenhouse Gas Emissions since 1990")+
+  ylab("Greenhouse Gas Emissions per Capita (tonnes)")+
+  theme_minimal()
+```
+
+```{r}
+ggplot(df, aes(year, total_ghg))+
+  geom_line(color = "blue")+
+  xlab("Year")+
+  labs(title = "US Greenhouse Gas Emissions since 1990")+
+  ylab("Total Greenhouse Gas Emissions (millions of tonnes)")+
+  theme_minimal()
+```
+
+Utilizing the forecast package to use an ARIMA model to predict per capita and total greenhouse emissions for 2020-2031
+```{r}
+View(df)
+fit <- auto.arima(df[, "ghg_per_capita"])
+forecastedValues <- forecast(fit, 11)
+print(forecastedValues)
+plot(forecastedValues, main = "Greenhouse Gas Emissions Forecast", xlab = 'Years Since 1990', ylab = "Greenhouse Gas Emissions per Capita (tonnes)")
+
+
+```
+
+```{r}
+
+fit2 <- auto.arima(df[, "total_ghg"])
+forecastedValues2 <- forecast(fit2, 11)
+print(forecastedValues2)
+plot(forecastedValues2, main = "Total Greenhouse Gas Emissions Forecast", xlab = 'Years Since 1850', ylab = "Greenhouse Gas Emissions per Capita (Millions of tonnes)")
+
+
+```
+Creating a Plot to show why we only used since 1990 for our projection
+```{r}
+data <- read.csv("/Users/adam/Desktop/DS Projects/Project 3/owid-co2-data (1).csv")
+View(data)
+data <- data %>% 
+  filter(country == 'United States', year >= 1850)
+
+
+ggplot(data, aes(year, co2_including_luc_per_capita))+
+  geom_line(color = "green")+
+  xlab("Year")+
+  labs(title = "US CO2 Emissions since Industrial Revolution")+
+  ylab("CO2 Emissions per Capita (tonnes)")+
+  theme_minimal()
+```
+
