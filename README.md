@@ -73,6 +73,9 @@ Plot showing the predicted trend in TOTAL greenhouse gas emissions in the US 199
 Table showing the predicted GHG reduction (per capita and total) in the US by 2030. In agreement with our hypothesis, the US will not meet the GHG reduction goal of 50-52%.
 <img src="https://github.com/vkf5ugb/SleepyHeads_DS4002_Project3/blob/main/Figures/ResultsTable.png" title= "Results of Predictions">
 
+Plot showing the trend in GHG emissions throughout history. Motivation for only using data from 1990 and later; trying to reduce volatility.
+<img src="https://github.com/vkf5ugb/SleepyHeads_DS4002_Project3/blob/main/Figures/tricky.jpeg" title= "Reduction of Influence of Volatility">
+
 ## References
 [1] A. Cook, T. Feist, Q. Glovier, “Climate Change Predictions: Milestone 1”, The Sleepyheads, 04-April-2023, [Online]. Available: [Project3_MI1](https://docs.google.com/document/d/1ucUobykuZswk5Unbu6bWKyQ18jEMa1kowxmz9iMyxfo/edit) . [Accessed 04-06-2023].
 
